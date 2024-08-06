@@ -28,6 +28,14 @@ ul {
     padding: 30px 0;
 }
 
+.img__intro {
+    max-width: 1110px;
+}
+
+.header-img {
+    width: 100%;
+}
+
 .header-list {
     display: flex;
     justify-content: center;
@@ -113,16 +121,18 @@ ul {
 
 }
 
-.about-box-footer{
+.about-box-footer {
     background: #f0f0f0;
     display: flex;
     justify-content: space-between;
 
 }
-.about-box-left-footer{
+
+.about-box-left-footer {
     padding: 15px 15px;
 }
-.footer-content{
+
+.footer-content {
     font-family: Roboto;
     font-weight: 400;
     font-size: 16px;
@@ -131,74 +141,42 @@ ul {
     padding-bottom: 10px;
     padding-right: 40px;
 }
-.call-footer{
+
+.call-footer {
     font-family: Roboto;
     font-weight: 700;
     font-size: 25px;
     color: #808080;
 }
-.footer{
+
+.footer {
     padding-top: 26px;
 }
 
-@media (max-width:1000px){
-.about-box-content{
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.about-box-left,
-.about-box-right{
-max-width: none;
-}
-.header-img{
-    height: 400px;
-}
-}
-@media (max-width:850px){
-    .header-img{
-    height: 320px;
+@media (max-width:1000px) {
+    .about-box-content {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .about-box-left,
+    .about-box-right {
+        max-width: none;
     }
 }
-@media (max-width:700px){
-.header-list{
-    flex-wrap: wrap;
-}
-.header-img{
-    height: 300px;
+
+
+@media (max-width:700px) {
+    .header-list {
+        flex-wrap: wrap;
     }
 }
-@media (max-width:600px){
-    .header-img{
-        height: 250px;
-        }
-}
-@media (max-width:500px){
-    .header-img{
-        height: 210px;
-        }
-}
-@media (max-width:450px){
-    .header-img{
-        height: 200px;
-        }
-        .about-box-footer{
-            align-items: center;
-            flex-direction: column;
-        }
-}
-@media (max-width:400px){
-    .header-img{
-        height: 160px;
-        }
-}
-@media (max-width:350px){
-    .header-img{
-        height: 150px;
-        }
-}
-@media (max-width:320px){
-    .header-img{
-        height: 140px;
-        }
+
+
+@media (max-width:450px) {
+    .about-box-footer {
+        align-items: center;
+        flex-direction: column;
+    }
 }
